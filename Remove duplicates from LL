@@ -1,6 +1,8 @@
 // Java Program to remove duplicates
 // from a sorted linked list
-class GFG
+
+
+class rM
 {
 /* Link list node */
 static class Node
