@@ -1,0 +1,25 @@
+class LL{
+    static Node head;
+    static class Node{
+        int data;
+        Node next;
+        Node(int d){
+            data=d;
+            next=null;
+        }
+    }
+    void pL(Node node){
+        while(node !=null){
+            System.out.print(node.data + " ");
+            node=node.next;
+        }
+}
+        
+        public static void main(String []args){
+            LL l=new LL();
+            l.head=new Node(1);
+            l.pL(head);
+        }
+        
+        
+    }
